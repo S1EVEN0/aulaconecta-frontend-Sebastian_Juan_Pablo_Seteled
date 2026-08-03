@@ -50,3 +50,4 @@ Antes de fusionar cualquier cambio a `main`, debe cumplir:
 - GitHub Hello World: https://docs.github.com/es/get-started/start-your-journey/hello-world
 - Sitio oficial de Git: https://git-scm.com/about
 - Glosario de GitHub: https://docs.github.com/es/get-started/learning-about-github/github-glossary
+readme
