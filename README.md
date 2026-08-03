@@ -17,9 +17,9 @@ En esta primera etapa se planea construir:
 
 | Nombre / Iniciales | Usuario de GitHub | Rol |
 |---|---|---|
-| _Integrante 1_ | _@usuario1_ | Responsable del repositorio |
-| _Integrante 2_ | _@usuario2_ | Responsable de la rama |
-| _Integrante 3_ | _@usuario3_ | Revisor(a) / Auditor(a) de evidencia |
+| _Integrante 1_ | _stevenalejandro2020@gmail.com_ | Responsable del repositorio |
+| _Integrante 2_ | _arevalosebastian@colegiotecnicosantotomas.edu.co_ | Responsable de la rama |
+| _Integrante 3_ | _juanpablomar78@gmail.com_ | Revisor(a) / Auditor(a) de evidencia |
 
 > Reemplacen estos datos por los reales de su equipo antes de fusionar el PR.
 
