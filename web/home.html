@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StreamEast — Inicio</title>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<nav>
+  <span class="logo">StreamEast</span>
+
+  <ul class="nav-links">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">En vivo</a></li>
+    <li><a href="#">Categorías</a></li>
+    <li><a href="#">Creadores</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <div class="search-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="text" placeholder="Buscar streams…"/>
+    </div>
+    <a class="btn btn-ghost" id="IniciarSesion">Iniciar sesión</a>
+    <a class="btn btn-primary" id="Registrarse">Registrarse</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">En vivo ahora</div>
+    <h1>La experiencia<br/>de streaming que<br/>te mereces</h1>
+    <p>Disfruta transmisiones en vivo, contenido exclusivo y conecta con tus creadores favoritos. Sin interrupciones, sin límites.</p>
+    <div class="hero-actions">
+      <a href="#" class="btn btn-primary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21"/></svg>
+        Ver ahora — gratis
+      </a>
+      <a href="#" class="btn btn-ghost">Explorar contenido</a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-value">12.4K</div>
+      <div class="stat-label">Espectadores ahora</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">340+</div>
+      <div class="stat-label">Streams activos</div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="section-header">
+    <h2 class="section-title">🔴 Streams destacados</h2>
+    <a href="#" class="section-link">Ver todos →</a>
+  </div>
+
+  <div class="stream-grid">
+
+    <div class="stream-card">
+      <div class="card-thumb">
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&q=80" alt="Gaming"/>
+        <span class="card-live-badge">En vivo</span>
+        <span class="card-viewers">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          4,218
+        </span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <img class="avatar" src="https://i.pravatar.cc/60?img=11" alt="avatar"/>
+          <div>
+            <div class="card-title">Torneo Final — League of Legends Ranked S14</div>
+            <div class="card-creator"><strong>NightWolf_GG</strong> · Gaming</div>
+          </div>
+        </div>
+        <div class="card-tags">
+          <span class="tag">LoL</span>
+          <span class="tag">Competitivo</span>
+          <span class="tag">Español</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="card-thumb">
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&q=80" alt="Música"/>
+        <span class="card-live-badge">En vivo</span>
+        <span class="card-viewers">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          2,091
+        </span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <img class="avatar" src="https://i.pravatar.cc/60?img=5" alt="avatar"/>
+          <div>
+            <div class="card-title">Session de Jazz en vivo desde Buenos Aires</div>
+            <div class="card-creator"><strong>LauraBeats</strong> · Música</div>
+          </div>
+        </div>
+        <div class="card-tags">
+          <span class="tag">Jazz</span>
+          <span class="tag">Acústico</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="card-thumb">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80" alt="Coding"/>
+        <span class="card-live-badge">En vivo</span>
+        <span class="card-viewers">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          987
+        </span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <img class="avatar" src="https://i.pravatar.cc/60?img=3" alt="avatar"/>
+          <div>
+            <div class="card-title">Construyendo una app con React desde cero</div>
+            <div class="card-creator"><strong>CodeWithCarlos</strong> · Tecnología</div>
+          </div>
+        </div>
+        <div class="card-tags">
+          <span class="tag">React</span>
+          <span class="tag">Dev</span>
+          <span class="tag">Tutorial</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="card-thumb">
+        <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=600&q=80" alt="Arte"/>
+        <span class="card-viewers">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          522
+        </span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <img class="avatar" src="https://i.pravatar.cc/60?img=9" alt="avatar"/>
+          <div>
+            <div class="card-title">Ilustración digital: personajes de fantasía paso a paso</div>
+            <div class="card-creator"><strong>ArtByMia</strong> · Arte y Creatividad</div>
+          </div>
+        </div>
+        <div class="card-tags">
+          <span class="tag">Arte</span>
+          <span class="tag">Ilustración</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="padding-top: 0;">
+  <div class="section-header">
+    <h2 class="section-title">🎮 Categorías populares</h2>
+    <a href="#" class="section-link">Ver todas →</a>
+  </div>
+
+  <div class="category-grid">
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=400&q=80" alt="Gaming"/>
+      <div class="category-label">Gaming<span class="category-count">1,240 streams</span></div>
+    </div>
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&q=80" alt="Música"/>
+      <div class="category-label">Música<span class="category-count">430 streams</span></div>
+    </div>
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80" alt="Tecnología"/>
+      <div class="category-label">Tecnología<span class="category-count">318 streams</span></div>
+    </div>
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=400&q=80" alt="Arte"/>
+      <div class="category-label">Arte<span class="category-count">215 streams</span></div>
+    </div>
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" alt="Bienestar"/>
+      <div class="category-label">Bienestar<span class="category-count">180 streams</span></div>
+    </div>
+    <div class="category-card">
+      <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&q=80" alt="Educación"/>
+      <div class="category-label">Educación<span class="category-count">290 streams</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="premium-banner">
+  <div class="premium-text">
+    <h2>Desbloquea el streaming sin límites ✨</h2>
+    <p>Suscríbete a StreamVibe Premium y accede a contenido exclusivo, calidad 4K, sin anuncios y apoya directamente a tus creadores favoritos.</p>
+  </div>
+  <div class="premium-actions">
+    <a href="#" class="btn btn-primary">Ver planes →</a>
+    <a href="#" class="btn btn-ghost">Saber más</a>
+  </div>
+</div>
+
+<footer>
+  <span class="logo" style="font-size:1.1rem;">StreamVibe</span>
+  <div class="footer-links">
+    <a href="#">Términos</a>
+    <a href="#">Privacidad</a>
+    <a href="#">Ayuda</a>
+    <a href="#">Careers</a>
+  </div>
+  <span>© 2026 StreamEast. Todos los derechos reservados.</span>
+</footer>
+<script src="home.js"></script>
+</body>
+</html>
