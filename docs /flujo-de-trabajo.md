@@ -18,10 +18,4 @@
 - `git checkout`: cambia el punto de trabajo activo hacia otra rama o commit.
 - `git merge`: une el historial de dos ramas en una sola.
 
-*(Espacio para que cada integrante agregue su propia línea si usó comandos adicionales durante los niveles: por ejemplo `git checkout -b`, `git log`, etc.)*
 
-## Evidencia
-Adjuntar en `evidencias/` una captura por integrante que muestre los niveles obligatorios completados:
-- `evidencias/learn-git-usuario1.png`
-- `evidencias/learn-git-usuario2.png`
-- `evidencias/learn-git-usuario3.png`
